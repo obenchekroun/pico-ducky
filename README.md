@@ -29,7 +29,7 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
  - `asyncio`
  - `adafruit_wsgi`
 
-7.. Copy `boot.py` from your clone to the root of your Pico.
+7. Copy `boot.py` from your clone to the root of your Pico.
 
 8. Copy `duckyinpython.py`, `code.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
 
