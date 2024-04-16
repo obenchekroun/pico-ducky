@@ -37,6 +37,8 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 `secrets = { 'ssid' : "BadAPName", 'password' : "badpassword" }`
 
 10. Find a script [here](https://github.com/hak5/usbrubberducky-payloads) or [create your own one using Ducky Script](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world) and save it as `payload.dd` in the Pico. Currently, pico-ducky only supports DuckyScript 1.0, not 3.0.
+ - There are some payloads in the `payloads` folder of this repo.
+ - the example `payload.dd` opens Notepad in Windows and type "Hello World!"
 
 11. Be careful, if your device isn't in [setup mode](#setup-mode), the device will reboot and after half a second, the script will run.
 
