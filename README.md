@@ -22,7 +22,7 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 
 5. Download `adafruit-circuitpython-bundle-8.x-mpy-YYYYMMDD.zip` [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) and extract it outside the device.
 
-6. Navigate to `lib` in the recently extracted folder and copy : 
+6. Navigate to `lib` in the recently extracted folder and copy to `Volumes/CIRCUITPY/lib` : 
  - `adafruit_hid`
  - `adafruit_debouncer.mpy` 
  - `adafruit_ticks.mpy`
