@@ -166,7 +166,7 @@ This is what it should look like **if your language is French for example**.
 
 #### Modify the pico-ducky code to use your language file:
 
-At the start of the file comment out these lines:
+At the start of the file `duckyinpython.py` comment out these lines:
 
 ```py
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS as KeyboardLayout
@@ -194,6 +194,9 @@ keyboard_layout_win_de.mpy
 keycode_win_de.mpy
 ```
 
+## Full pinout
+
+![Full pinout](images/pico-ducky-pinout.svg)
 
 ## Useful links and resources
 
@@ -227,3 +230,5 @@ You can find the tool [here](https://github.com/raspberrydeveloper/pyducky)
 
 [Defcon31-ducky](https://github.com/iot-pwn/defcon31-ducky)  
 There are still a few of these available to purchase, US only.
+
+# Full pinout
